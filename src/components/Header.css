@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px;
+    background-color: rgb(211,113,60);
+    height: 60px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.headerBtns { 
+    background-color: rgb(211,113,60);
+    color: white;
+    border: 0;
+    font-size: 17px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    box-sizing: border-box;
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    margin-top: 100px;
+  }
+
+h5 {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 8px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(80, 141, 141, 0.993);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

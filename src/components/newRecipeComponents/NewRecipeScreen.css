@@ -1,0 +1,107 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: fit-content;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+.inputContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .ingredientInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .radioContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .radioContainer span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .inputContainer input {
+    width: 100%;
+  }
+
+  ul {
+    width: 50%;
+    color: black;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  form input[type=radio] {
+    height: 35px;
+    width: 35px;
+    border: 3px;
+  }
+
+  form input, form textarea {
+    border: 1px solid #838383;
+    border-radius: 3px;
+    font-size: 20px;
+  }
+
+  #formTitle {
+    color: black;
+    margin-top: 40px;
+  }
+
+  form label {
+    font-size: 20px;
+  }
+
+  form input:focus {
+    --color: hsl(var(--primary-color), var(--l));
+    border: 1px solid var(--color)
+  }
+
+  #addIngredientBtn {
+    width: 110px;
+    height: 35px;
+    background-color: orange;
+    border: 0;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .cardBtn {
+    width: 110px;
+    height: 35px;
+    background-color: rgb(67, 150, 150);
+    border: 0;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  
